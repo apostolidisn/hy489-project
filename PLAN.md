@@ -1,7 +1,0 @@
-# HY-489 Project Plan
-
-## 1. Team & Work Division
-* **Member A — Aggelos Zoumis (`csd5587`) — WP1 & R3:** Greek name-equivalence table (`names.csv`), field standardisation (`standardise.py`), AMKA format and birth-date concordance validation, `quality.py` profiling report, name-table agreement lift on the tuning half.
-* **Member B — Maria Kasapaki (`csd5419`) — WP2 & R2:** Deterministic 50/50 tuning/test split of `truth.csv` (committed first), blocking scheme and recall ceiling, pairwise comparators (partial date matches, missing-value handling), EM estimation of $m$ and $u$, Fellegi-Sunter scoring, threshold selection and clerical review band, test-half evaluation vs. Week 7 baseline, and (Art. 77 description, Art. 78 quality label, Art. 53 permit).
-* **Member C — Nikos Apostolidis (`csd5577`) — WP3 & R1:** Bloom-filter privacy-preserving linkage (`pprl.py`) with keyed HMAC and Dice similarity, key custody analysis and Week 7 frequency attack, unlinked record demographic bias analysis (age/sex) and downstream rate impact, stress-test on noisier `gen_sites.py`.
-* **Shared:** (real national statistics / cancer registry linkage access policy appraisal), `REPORT.md`, `slides.pdf`, `CONTRIBUTIONS.md`, and two timed rehearsals.
